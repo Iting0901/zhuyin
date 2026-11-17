@@ -8,13 +8,13 @@ const root = path.resolve(__dirname, '..');
 const prefix = '/zhuyin/';
 const server = http.createServer((req,res)=>{
   const pathname = decodeURIComponent(new URL(req.url,'http://localhost').pathname);
-  if (!pathname.startsWith(prefix)) {res.writeHead(404).end();return;}
+  if (!pathname.startsWith(prefix)) {console.error('Missing path: '+pathname);res.writeHead(404).end();return;}
   let file = path.resolve(root, pathname.slice(prefix.length));
   if (!file.startsWith(root + '/') && file !== root) {res.writeHead(403).end();return;}
   if (fs.existsSync(file) && fs.statSync(file).isDirectory()) file=path.join(file,'index.html');
   fs.readFile(file,(err,data)=>{
-    if(err){res.writeHead(404).end();return;}
-    res.setHeader('Content-Type',({'.html':'text/html','.js':'text/javascript','.css':'text/css','.pdf':'application/pdf'})[path.extname(file)] || 'application/octet-stream');
+    if(err){console.error('Missing file: '+file);res.writeHead(404).end();return;}
+    res.setHeader('Content-Type',({'.html':'text/html','.js':'text/javascript','.css':'text/css','.pdf':'application/pdf','.png':'image/png','.svg':'image/svg+xml'})[path.extname(file)] || 'application/octet-stream');
     res.end(data);
   });
 });
@@ -23,19 +23,20 @@ const server = http.createServer((req,res)=>{
  const browser=await chromium.launch({headless:true, ...(process.env.CHROME_CHANNEL ? {channel:process.env.CHROME_CHANNEL} : {})});
  try {
  const page=await browser.newPage(); const errors=[];
- page.on('pageerror',e=>errors.push(e.message));
- page.on('console',m=>{if(m.type()==='error') errors.push(m.text());});
+ page.on('pageerror',e=>errors.push(e.message));page.on('response',r=>{if(r.status()>=400)errors.push(r.status()+' '+r.url())});
+ page.on('console',m=>{if(m.type()==='error') errors.push(m.text()+' '+JSON.stringify(m.location()));});
  const base=`http://127.0.0.1:${server.address().port}${prefix}`;
- await page.goto(base); await page.waitForSelector('[data-action="symbols"]');
+ await page.goto(base); await page.waitForSelector('[data-action="explore|1"]');
  assert.equal(await page.locator('a[href="content_v3.html"]').count(),1);
  const nav=async(p)=>{await page.locator(`.nav [data-page="${p}"]`).click();};
  const action=async(a)=>{await page.locator(`[data-action="${a}"]`).first().click();};
  const heading=async(text)=>assert(await page.getByRole('heading',{name:text,exact:true}).isVisible());
+ await page.locator('[data-action="partner|133"]').click();assert.equal((await page.evaluate(()=>JSON.parse(localStorage.getItem('zhuyin-explorer-v2')))).companion,133);assert.equal(await page.locator('[data-action="partner|133"]').getAttribute('aria-pressed'),'true');
  // Every map card action and quick navigation must reach its destination.
- await action('symbols'); await heading('符號圖鑑');
- await nav('map'); await action('story'); await heading('故事探險任務');
+ await action('explore|1'); await heading('符號圖鑑');assert.equal(await page.locator('.symbol-card').count(),4);
+ await nav('map'); await action('zonestory|1'); await heading('故事探險任務');
  for(const [a,h] of [['quiz','聲音尋寶'],['write','足跡書寫研究所'],['blend','拼音訓練場'],['story','故事探險任務']]){await nav('map');await action(a);await heading(h);}
- for(const [p,h] of [['map','探險地圖'],['symbols','符號圖鑑'],['quiz','聲音尋寶'],['write','足跡書寫研究所'],['blend','拼音訓練場'],['story','故事探險任務'],['progress','家長觀察中心']]){await nav(p);await heading(h);}
+ for(const [p,h] of [['map','你的注音冒險地圖'],['symbols','符號圖鑑'],['quiz','聲音尋寶'],['write','足跡書寫研究所'],['blend','拼音訓練場'],['story','故事探險任務'],['progress','家長觀察中心']]){await nav(p);await heading(h);}
  await nav('symbols');await action('mark|ㄇ|read|2');
  await action('choosewrite|ㄇ');await heading('足跡書寫研究所');
  const canvas=page.locator('#draw');const rect=await canvas.boundingBox();
@@ -45,7 +46,7 @@ const server = http.createServer((req,res)=>{
  await action('clearcanvas');await page.locator('#writing-select').selectOption('ㄚ');await action('mark|ㄚ|write|2');
  await nav('quiz');const answer=await page.locator('details .symbol').textContent();
  await action('answer|'+answer);assert.match(await page.locator('#quiz-feedback').innerText(),/正確/);
- const wrong=await page.locator('.choices button').allTextContents();await action('answer|'+wrong.find(s=>s!==answer));assert.match(await page.locator('#quiz-feedback').innerText(),/再聽/);await action('nextquiz');
+ const wrong=await page.locator('.choices button').allTextContents();await action('answer|'+wrong.find(s=>s!==answer));assert.match(await page.locator('#quiz-feedback').innerText(),/再試一次/);await action('nextquiz');
  await nav('blend');await action('nextsyllable');
  await nav('story');await action('nextmission');await action('prevmission');await page.locator('[data-action^="mission|"]').last().click();
  if(await page.locator('[data-action="showanswer"]').count()){await action('showanswer');assert.match(await page.locator('#story-answer').innerText(),/參考答案/);}
@@ -54,20 +55,26 @@ const server = http.createServer((req,res)=>{
  let state=await stored();assert.equal(state.records['ㄇ'].read,2);assert.equal(state.records['ㄚ'].write,2);assert.equal(state.journal.length,1);
  await page.reload();assert.deepEqual(await stored(),state);
  await nav('map');page.once('dialog',d=>d.accept());await action('unlock|8');
+ await nav('map');await action('explore|8');assert.equal(await page.locator('.symbol-card').count(),4);await action('allsymbols');assert.equal(await page.locator('.symbol-card').count(),37);await nav('map');await action('zonestory|8');assert.match(await page.locator('.story-scene').innerText(),/快龍/);
  await nav('symbols');assert.equal(await page.locator('.symbol-card').count(),37);
- await nav('story');assert.equal(await page.locator('[data-action^="mission|"]').count(),32);
+ await nav('story');assert.equal(await page.locator('[data-action^="mission|"]').count(),32);for(let i=0;i<32;i++){await action('mission|'+i);assert.doesNotMatch(await page.locator('.story-beat').innerText(),/undefined/);await page.locator('.story-pokemon').evaluate(i=>i.decode());assert(await page.locator('.story-pokemon').evaluate(i=>i.naturalWidth>0));}
  await nav('progress');
  for(const a of ['export','csv']) {const download=page.waitForEvent('download');await action(a);assert((await download).suggestedFilename().endsWith(a==='csv'?'.csv':'.json'));}
  const backup=await stored();await page.locator('#import-file').setInputFiles({name:'progress.json',mimeType:'application/json',buffer:Buffer.from(JSON.stringify(backup))});await page.getByRole('status').filter({hasText:'匯入完成'}).waitFor();assert.deepEqual(await stored(),backup);
  // Cancel reset: existing learner records must remain untouched.
  page.once('dialog',d=>d.dismiss());await action('reset');assert.deepEqual(await stored(),backup);
  await nav('map');
- const links=await page.locator('a[href]').evaluateAll(a=>a.map(x=>x.href));
+ const links=(await page.locator('a[href]').evaluateAll(a=>a.map(x=>x.href))).filter(url=>url.startsWith(base));
  for(const url of links){assert(url.startsWith(base));const response=await page.request.get(url);assert.equal(response.status(),200,url);}
  await page.getByRole('link',{name:/V3 完整教學內容/}).click();assert.match(page.url(),/\/zhuyin\/zhuyin_adventure_v3_content_review\/content_v3.html$/);
- await page.getByRole('link',{name:'← 回遊戲首頁'}).click();await heading('探險地圖');
- await page.setViewportSize({width:390,height:844});await action('symbols');await heading('符號圖鑑');
- if(process.env.SCREENSHOT_PATH) await page.screenshot({path:process.env.SCREENSHOT_PATH,fullPage:true});
+ await page.getByRole('link',{name:'← 回遊戲首頁'}).click();await heading('你的注音冒險地圖');
+ await page.setViewportSize({width:390,height:844});await nav('symbols');await heading('符號圖鑑');
+ await nav('map');
+ for(const width of [390,768,1280]){await page.setViewportSize({width,height:900});assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'horizontal overflow at '+width);await page.locator('.hero-pokemon').waitFor();assert(await page.locator('.hero-pokemon').evaluate(i=>i.complete&&i.naturalWidth>0));if(process.env.SCREENSHOT_PATH) await page.screenshot({path:process.env.SCREENSHOT_PATH.replace('.png','-'+width+'.png'),fullPage:true});}
+ await page.locator('.poke-art').evaluateAll(images=>Promise.all(images.map(i=>{i.loading='eager';return i.decode()})));assert(await page.locator('.poke-art').evaluateAll(images=>images.every(i=>i.naturalWidth>0)));
+ assert.equal((await stored()).companion,133);
+ const legacy=await browser.newPage();await legacy.goto(base);await legacy.locator('.hero-pokemon').waitFor();const oldProgress={stage:3,records:{'ㄇ':{read:2,write:1,blend:0,last:'2026-11-16'}},journal:[{date:'2026-11-16',mission:'神秘的ㄇ'}],discoveries:['ㄇ'],attempts:7};await legacy.evaluate(v=>localStorage.setItem('zhuyin-explorer-v2',JSON.stringify(v)),oldProgress);await legacy.reload();await legacy.locator('.hero-pokemon').waitFor();assert.deepEqual(await legacy.evaluate(()=>JSON.parse(localStorage.getItem('zhuyin-explorer-v2'))),oldProgress);await legacy.locator('[data-action="partner|7"]').click();assert.deepEqual(await legacy.evaluate(()=>{const {companion,...old}=JSON.parse(localStorage.getItem('zhuyin-explorer-v2'));return old}),oldProgress);await legacy.close();
+ const welcome=await browser.newPage({viewport:{width:1280,height:1000}});await welcome.goto(base);await welcome.locator('.hero-pokemon').waitFor();await welcome.locator('.hero-pokemon').evaluate(i=>i.decode());await welcome.locator('.hero-friend').evaluate(i=>i.decode());if(process.env.SCREENSHOT_PATH)await welcome.screenshot({path:process.env.SCREENSHOT_PATH.replace('.png','-preview.png')});await welcome.close();
  assert.deepEqual(errors,[]);console.log('PASS: navigation, quiz, writing, story, progress, 37 symbols, 32 missions, import/export, persistence, mobile and /zhuyin/ paths; no console errors.');
  } finally {await browser.close();}
 })().catch(e=>{console.error(e);process.exitCode=1;}).finally(()=>server.close());
