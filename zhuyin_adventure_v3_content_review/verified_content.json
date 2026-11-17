@@ -1,0 +1,1955 @@
+{
+  "version": "3.0-content-review",
+  "symbols": [
+    {
+      "order": 1,
+      "group": 1,
+      "symbol": "ㄇ",
+      "pronunciation_note": "鼻音，嘴唇閉合後發聲",
+      "example_bopomofo": "ㄇㄚ",
+      "example_character": "媽",
+      "confusion": "ㄋ（外形與鼻音）",
+      "recognition": [
+        "看形辨識",
+        "聽音選符號",
+        "看符號發音",
+        "跨日換情境"
+      ],
+      "writing": [
+        "造形操作",
+        "依教育部筆順描寫",
+        "看範例臨寫",
+        "不看範例書寫"
+      ],
+      "assessment": "認讀與書寫分開記錄；跨日獨立表現才可標記穩定"
+    },
+    {
+      "order": 2,
+      "group": 1,
+      "symbol": "ㄚ",
+      "pronunciation_note": "張大嘴發聲",
+      "example_bopomofo": "ㄇㄚ",
+      "example_character": "媽",
+      "confusion": "先穩定辨認，再與相近符號比較",
+      "recognition": [
+        "看形辨識",
+        "聽音選符號",
+        "看符號發音",
+        "跨日換情境"
+      ],
+      "writing": [
+        "造形操作",
+        "依教育部筆順描寫",
+        "看範例臨寫",
+        "不看範例書寫"
+      ],
+      "assessment": "認讀與書寫分開記錄；跨日獨立表現才可標記穩定"
+    },
+    {
+      "order": 3,
+      "group": 1,
+      "symbol": "ㄅ",
+      "pronunciation_note": "雙唇不送氣塞音",
+      "example_bopomofo": "ㄅㄚˋ",
+      "example_character": "爸",
+      "confusion": "ㄆ（送氣）",
+      "recognition": [
+        "看形辨識",
+        "聽音選符號",
+        "看符號發音",
+        "跨日換情境"
+      ],
+      "writing": [
+        "造形操作",
+        "依教育部筆順描寫",
+        "看範例臨寫",
+        "不看範例書寫"
+      ],
+      "assessment": "認讀與書寫分開記錄；跨日獨立表現才可標記穩定"
+    },
+    {
+      "order": 4,
+      "group": 1,
+      "symbol": "ㄧ",
+      "pronunciation_note": "嘴角向兩側展開",
+      "example_bopomofo": "ㄇㄧ",
+      "example_character": "咪",
+      "confusion": "先穩定辨認，再與相近符號比較",
+      "recognition": [
+        "看形辨識",
+        "聽音選符號",
+        "看符號發音",
+        "跨日換情境"
+      ],
+      "writing": [
+        "造形操作",
+        "依教育部筆順描寫",
+        "看範例臨寫",
+        "不看範例書寫"
+      ],
+      "assessment": "認讀與書寫分開記錄；跨日獨立表現才可標記穩定"
+    },
+    {
+      "order": 5,
+      "group": 2,
+      "symbol": "ㄉ",
+      "pronunciation_note": "舌尖抵上齒齦",
+      "example_bopomofo": "ㄉㄚ",
+      "example_character": "搭",
+      "confusion": "ㄊ（送氣）",
+      "recognition": [
+        "看形辨識",
+        "聽音選符號",
+        "看符號發音",
+        "跨日換情境"
+      ],
+      "writing": [
+        "造形操作",
+        "依教育部筆順描寫",
+        "看範例臨寫",
+        "不看範例書寫"
+      ],
+      "assessment": "認讀與書寫分開記錄；跨日獨立表現才可標記穩定"
+    },
+    {
+      "order": 6,
+      "group": 2,
+      "symbol": "ㄨ",
+      "pronunciation_note": "嘴唇圓起",
+      "example_bopomofo": "ㄅㄨˋ",
+      "example_character": "不",
+      "confusion": "先穩定辨認，再與相近符號比較",
+      "recognition": [
+        "看形辨識",
+        "聽音選符號",
+        "看符號發音",
+        "跨日換情境"
+      ],
+      "writing": [
+        "造形操作",
+        "依教育部筆順描寫",
+        "看範例臨寫",
+        "不看範例書寫"
+      ],
+      "assessment": "認讀與書寫分開記錄；跨日獨立表現才可標記穩定"
+    },
+    {
+      "order": 7,
+      "group": 2,
+      "symbol": "ㄋ",
+      "pronunciation_note": "舌尖鼻音",
+      "example_bopomofo": "ㄋㄚ",
+      "example_character": "拿",
+      "confusion": "ㄇ、ㄌ",
+      "recognition": [
+        "看形辨識",
+        "聽音選符號",
+        "看符號發音",
+        "跨日換情境"
+      ],
+      "writing": [
+        "造形操作",
+        "依教育部筆順描寫",
+        "看範例臨寫",
+        "不看範例書寫"
+      ],
+      "assessment": "認讀與書寫分開記錄；跨日獨立表現才可標記穩定"
+    },
+    {
+      "order": 8,
+      "group": 2,
+      "symbol": "ㄠ",
+      "pronunciation_note": "從ㄚ滑向ㄨ的韻母",
+      "example_bopomofo": "ㄇㄠ",
+      "example_character": "貓",
+      "confusion": "先穩定辨認，再與相近符號比較",
+      "recognition": [
+        "看形辨識",
+        "聽音選符號",
+        "看符號發音",
+        "跨日換情境"
+      ],
+      "writing": [
+        "造形操作",
+        "依教育部筆順描寫",
+        "看範例臨寫",
+        "不看範例書寫"
+      ],
+      "assessment": "認讀與書寫分開記錄；跨日獨立表現才可標記穩定"
+    },
+    {
+      "order": 9,
+      "group": 3,
+      "symbol": "ㄆ",
+      "pronunciation_note": "雙唇送氣",
+      "example_bopomofo": "ㄆㄚ",
+      "example_character": "趴",
+      "confusion": "ㄅ（送氣）",
+      "recognition": [
+        "看形辨識",
+        "聽音選符號",
+        "看符號發音",
+        "跨日換情境"
+      ],
+      "writing": [
+        "造形操作",
+        "依教育部筆順描寫",
+        "看範例臨寫",
+        "不看範例書寫"
+      ],
+      "assessment": "認讀與書寫分開記錄；跨日獨立表現才可標記穩定"
+    },
+    {
+      "order": 10,
+      "group": 3,
+      "symbol": "ㄊ",
+      "pronunciation_note": "舌尖送氣",
+      "example_bopomofo": "ㄊㄚ",
+      "example_character": "他",
+      "confusion": "ㄉ（送氣）",
+      "recognition": [
+        "看形辨識",
+        "聽音選符號",
+        "看符號發音",
+        "跨日換情境"
+      ],
+      "writing": [
+        "造形操作",
+        "依教育部筆順描寫",
+        "看範例臨寫",
+        "不看範例書寫"
+      ],
+      "assessment": "認讀與書寫分開記錄；跨日獨立表現才可標記穩定"
+    },
+    {
+      "order": 11,
+      "group": 3,
+      "symbol": "ㄌ",
+      "pronunciation_note": "舌尖邊音",
+      "example_bopomofo": "ㄌㄚ",
+      "example_character": "拉",
+      "confusion": "ㄋ（發音）",
+      "recognition": [
+        "看形辨識",
+        "聽音選符號",
+        "看符號發音",
+        "跨日換情境"
+      ],
+      "writing": [
+        "造形操作",
+        "依教育部筆順描寫",
+        "看範例臨寫",
+        "不看範例書寫"
+      ],
+      "assessment": "認讀與書寫分開記錄；跨日獨立表現才可標記穩定"
+    },
+    {
+      "order": 12,
+      "group": 3,
+      "symbol": "ㄛ",
+      "pronunciation_note": "圓唇韻母",
+      "example_bopomofo": "ㄅㄛ",
+      "example_character": "波",
+      "confusion": "ㄜ（發音）",
+      "recognition": [
+        "看形辨識",
+        "聽音選符號",
+        "看符號發音",
+        "跨日換情境"
+      ],
+      "writing": [
+        "造形操作",
+        "依教育部筆順描寫",
+        "看範例臨寫",
+        "不看範例書寫"
+      ],
+      "assessment": "認讀與書寫分開記錄；跨日獨立表現才可標記穩定"
+    },
+    {
+      "order": 13,
+      "group": 4,
+      "symbol": "ㄈ",
+      "pronunciation_note": "上齒輕觸下唇",
+      "example_bopomofo": "ㄈㄚ",
+      "example_character": "發",
+      "confusion": "先穩定辨認，再與相近符號比較",
+      "recognition": [
+        "看形辨識",
+        "聽音選符號",
+        "看符號發音",
+        "跨日換情境"
+      ],
+      "writing": [
+        "造形操作",
+        "依教育部筆順描寫",
+        "看範例臨寫",
+        "不看範例書寫"
+      ],
+      "assessment": "認讀與書寫分開記錄；跨日獨立表現才可標記穩定"
+    },
+    {
+      "order": 14,
+      "group": 4,
+      "symbol": "ㄜ",
+      "pronunciation_note": "舌位靠後的韻母",
+      "example_bopomofo": "ㄍㄜ",
+      "example_character": "歌",
+      "confusion": "先穩定辨認，再與相近符號比較",
+      "recognition": [
+        "看形辨識",
+        "聽音選符號",
+        "看符號發音",
+        "跨日換情境"
+      ],
+      "writing": [
+        "造形操作",
+        "依教育部筆順描寫",
+        "看範例臨寫",
+        "不看範例書寫"
+      ],
+      "assessment": "認讀與書寫分開記錄；跨日獨立表現才可標記穩定"
+    },
+    {
+      "order": 15,
+      "group": 4,
+      "symbol": "ㄝ",
+      "pronunciation_note": "多在ㄧㄝ、ㄩㄝ出現",
+      "example_bopomofo": "ㄧㄝˋ",
+      "example_character": "夜",
+      "confusion": "ㄟ（聲音）",
+      "recognition": [
+        "看形辨識",
+        "聽音選符號",
+        "看符號發音",
+        "跨日換情境"
+      ],
+      "writing": [
+        "造形操作",
+        "依教育部筆順描寫",
+        "看範例臨寫",
+        "不看範例書寫"
+      ],
+      "assessment": "認讀與書寫分開記錄；跨日獨立表現才可標記穩定"
+    },
+    {
+      "order": 16,
+      "group": 4,
+      "symbol": "ㄟ",
+      "pronunciation_note": "滑動韻母",
+      "example_bopomofo": "ㄅㄟ",
+      "example_character": "杯",
+      "confusion": "ㄞ（聲音）",
+      "recognition": [
+        "看形辨識",
+        "聽音選符號",
+        "看符號發音",
+        "跨日換情境"
+      ],
+      "writing": [
+        "造形操作",
+        "依教育部筆順描寫",
+        "看範例臨寫",
+        "不看範例書寫"
+      ],
+      "assessment": "認讀與書寫分開記錄；跨日獨立表現才可標記穩定"
+    },
+    {
+      "order": 17,
+      "group": 4,
+      "symbol": "ㄢ",
+      "pronunciation_note": "前鼻音韻尾",
+      "example_bopomofo": "ㄅㄢ",
+      "example_character": "班",
+      "confusion": "ㄣ、ㄤ",
+      "recognition": [
+        "看形辨識",
+        "聽音選符號",
+        "看符號發音",
+        "跨日換情境"
+      ],
+      "writing": [
+        "造形操作",
+        "依教育部筆順描寫",
+        "看範例臨寫",
+        "不看範例書寫"
+      ],
+      "assessment": "認讀與書寫分開記錄；跨日獨立表現才可標記穩定"
+    },
+    {
+      "order": 18,
+      "group": 5,
+      "symbol": "ㄍ",
+      "pronunciation_note": "舌根不送氣",
+      "example_bopomofo": "ㄍㄜ",
+      "example_character": "歌",
+      "confusion": "ㄎ（送氣）",
+      "recognition": [
+        "看形辨識",
+        "聽音選符號",
+        "看符號發音",
+        "跨日換情境"
+      ],
+      "writing": [
+        "造形操作",
+        "依教育部筆順描寫",
+        "看範例臨寫",
+        "不看範例書寫"
+      ],
+      "assessment": "認讀與書寫分開記錄；跨日獨立表現才可標記穩定"
+    },
+    {
+      "order": 19,
+      "group": 5,
+      "symbol": "ㄎ",
+      "pronunciation_note": "舌根送氣",
+      "example_bopomofo": "ㄎㄜ",
+      "example_character": "科",
+      "confusion": "ㄍ（送氣）",
+      "recognition": [
+        "看形辨識",
+        "聽音選符號",
+        "看符號發音",
+        "跨日換情境"
+      ],
+      "writing": [
+        "造形操作",
+        "依教育部筆順描寫",
+        "看範例臨寫",
+        "不看範例書寫"
+      ],
+      "assessment": "認讀與書寫分開記錄；跨日獨立表現才可標記穩定"
+    },
+    {
+      "order": 20,
+      "group": 5,
+      "symbol": "ㄏ",
+      "pronunciation_note": "舌根摩擦音",
+      "example_bopomofo": "ㄏㄜ",
+      "example_character": "喝",
+      "confusion": "先穩定辨認，再與相近符號比較",
+      "recognition": [
+        "看形辨識",
+        "聽音選符號",
+        "看符號發音",
+        "跨日換情境"
+      ],
+      "writing": [
+        "造形操作",
+        "依教育部筆順描寫",
+        "看範例臨寫",
+        "不看範例書寫"
+      ],
+      "assessment": "認讀與書寫分開記錄；跨日獨立表現才可標記穩定"
+    },
+    {
+      "order": 21,
+      "group": 5,
+      "symbol": "ㄞ",
+      "pronunciation_note": "滑動韻母",
+      "example_bopomofo": "ㄅㄞˊ",
+      "example_character": "白",
+      "confusion": "先穩定辨認，再與相近符號比較",
+      "recognition": [
+        "看形辨識",
+        "聽音選符號",
+        "看符號發音",
+        "跨日換情境"
+      ],
+      "writing": [
+        "造形操作",
+        "依教育部筆順描寫",
+        "看範例臨寫",
+        "不看範例書寫"
+      ],
+      "assessment": "認讀與書寫分開記錄；跨日獨立表現才可標記穩定"
+    },
+    {
+      "order": 22,
+      "group": 5,
+      "symbol": "ㄡ",
+      "pronunciation_note": "滑動韻母",
+      "example_bopomofo": "ㄉㄡˋ",
+      "example_character": "豆",
+      "confusion": "先穩定辨認，再與相近符號比較",
+      "recognition": [
+        "看形辨識",
+        "聽音選符號",
+        "看符號發音",
+        "跨日換情境"
+      ],
+      "writing": [
+        "造形操作",
+        "依教育部筆順描寫",
+        "看範例臨寫",
+        "不看範例書寫"
+      ],
+      "assessment": "認讀與書寫分開記錄；跨日獨立表現才可標記穩定"
+    },
+    {
+      "order": 23,
+      "group": 5,
+      "symbol": "ㄣ",
+      "pronunciation_note": "前鼻音韻尾",
+      "example_bopomofo": "ㄅㄣ",
+      "example_character": "奔",
+      "confusion": "ㄢ、ㄥ",
+      "recognition": [
+        "看形辨識",
+        "聽音選符號",
+        "看符號發音",
+        "跨日換情境"
+      ],
+      "writing": [
+        "造形操作",
+        "依教育部筆順描寫",
+        "看範例臨寫",
+        "不看範例書寫"
+      ],
+      "assessment": "認讀與書寫分開記錄；跨日獨立表現才可標記穩定"
+    },
+    {
+      "order": 24,
+      "group": 6,
+      "symbol": "ㄐ",
+      "pronunciation_note": "舌面不送氣",
+      "example_bopomofo": "ㄐㄧ",
+      "example_character": "雞",
+      "confusion": "ㄑ、ㄒ",
+      "recognition": [
+        "看形辨識",
+        "聽音選符號",
+        "看符號發音",
+        "跨日換情境"
+      ],
+      "writing": [
+        "造形操作",
+        "依教育部筆順描寫",
+        "看範例臨寫",
+        "不看範例書寫"
+      ],
+      "assessment": "認讀與書寫分開記錄；跨日獨立表現才可標記穩定"
+    },
+    {
+      "order": 25,
+      "group": 6,
+      "symbol": "ㄑ",
+      "pronunciation_note": "舌面送氣",
+      "example_bopomofo": "ㄑㄧ",
+      "example_character": "七",
+      "confusion": "ㄐ、ㄒ",
+      "recognition": [
+        "看形辨識",
+        "聽音選符號",
+        "看符號發音",
+        "跨日換情境"
+      ],
+      "writing": [
+        "造形操作",
+        "依教育部筆順描寫",
+        "看範例臨寫",
+        "不看範例書寫"
+      ],
+      "assessment": "認讀與書寫分開記錄；跨日獨立表現才可標記穩定"
+    },
+    {
+      "order": 26,
+      "group": 6,
+      "symbol": "ㄒ",
+      "pronunciation_note": "舌面摩擦音",
+      "example_bopomofo": "ㄒㄧ",
+      "example_character": "西",
+      "confusion": "先穩定辨認，再與相近符號比較",
+      "recognition": [
+        "看形辨識",
+        "聽音選符號",
+        "看符號發音",
+        "跨日換情境"
+      ],
+      "writing": [
+        "造形操作",
+        "依教育部筆順描寫",
+        "看範例臨寫",
+        "不看範例書寫"
+      ],
+      "assessment": "認讀與書寫分開記錄；跨日獨立表現才可標記穩定"
+    },
+    {
+      "order": 27,
+      "group": 6,
+      "symbol": "ㄩ",
+      "pronunciation_note": "嘴唇圓起，舌位靠前",
+      "example_bopomofo": "ㄐㄩ",
+      "example_character": "居",
+      "confusion": "ㄨ（嘴形）",
+      "recognition": [
+        "看形辨識",
+        "聽音選符號",
+        "看符號發音",
+        "跨日換情境"
+      ],
+      "writing": [
+        "造形操作",
+        "依教育部筆順描寫",
+        "看範例臨寫",
+        "不看範例書寫"
+      ],
+      "assessment": "認讀與書寫分開記錄；跨日獨立表現才可標記穩定"
+    },
+    {
+      "order": 28,
+      "group": 6,
+      "symbol": "ㄤ",
+      "pronunciation_note": "後鼻音韻尾",
+      "example_bopomofo": "ㄅㄤ",
+      "example_character": "幫",
+      "confusion": "ㄢ",
+      "recognition": [
+        "看形辨識",
+        "聽音選符號",
+        "看符號發音",
+        "跨日換情境"
+      ],
+      "writing": [
+        "造形操作",
+        "依教育部筆順描寫",
+        "看範例臨寫",
+        "不看範例書寫"
+      ],
+      "assessment": "認讀與書寫分開記錄；跨日獨立表現才可標記穩定"
+    },
+    {
+      "order": 29,
+      "group": 6,
+      "symbol": "ㄥ",
+      "pronunciation_note": "後鼻音韻尾",
+      "example_bopomofo": "ㄉㄥ",
+      "example_character": "燈",
+      "confusion": "ㄣ",
+      "recognition": [
+        "看形辨識",
+        "聽音選符號",
+        "看符號發音",
+        "跨日換情境"
+      ],
+      "writing": [
+        "造形操作",
+        "依教育部筆順描寫",
+        "看範例臨寫",
+        "不看範例書寫"
+      ],
+      "assessment": "認讀與書寫分開記錄；跨日獨立表現才可標記穩定"
+    },
+    {
+      "order": 30,
+      "group": 7,
+      "symbol": "ㄓ",
+      "pronunciation_note": "翹舌不送氣",
+      "example_bopomofo": "ㄓ",
+      "example_character": "知",
+      "confusion": "ㄗ",
+      "recognition": [
+        "看形辨識",
+        "聽音選符號",
+        "看符號發音",
+        "跨日換情境"
+      ],
+      "writing": [
+        "造形操作",
+        "依教育部筆順描寫",
+        "看範例臨寫",
+        "不看範例書寫"
+      ],
+      "assessment": "認讀與書寫分開記錄；跨日獨立表現才可標記穩定"
+    },
+    {
+      "order": 31,
+      "group": 7,
+      "symbol": "ㄔ",
+      "pronunciation_note": "翹舌送氣",
+      "example_bopomofo": "ㄔ",
+      "example_character": "吃",
+      "confusion": "ㄘ",
+      "recognition": [
+        "看形辨識",
+        "聽音選符號",
+        "看符號發音",
+        "跨日換情境"
+      ],
+      "writing": [
+        "造形操作",
+        "依教育部筆順描寫",
+        "看範例臨寫",
+        "不看範例書寫"
+      ],
+      "assessment": "認讀與書寫分開記錄；跨日獨立表現才可標記穩定"
+    },
+    {
+      "order": 32,
+      "group": 7,
+      "symbol": "ㄕ",
+      "pronunciation_note": "翹舌摩擦音",
+      "example_bopomofo": "ㄕ",
+      "example_character": "詩",
+      "confusion": "ㄙ",
+      "recognition": [
+        "看形辨識",
+        "聽音選符號",
+        "看符號發音",
+        "跨日換情境"
+      ],
+      "writing": [
+        "造形操作",
+        "依教育部筆順描寫",
+        "看範例臨寫",
+        "不看範例書寫"
+      ],
+      "assessment": "認讀與書寫分開記錄；跨日獨立表現才可標記穩定"
+    },
+    {
+      "order": 33,
+      "group": 7,
+      "symbol": "ㄖ",
+      "pronunciation_note": "翹舌音",
+      "example_bopomofo": "ㄖ",
+      "example_character": "日",
+      "confusion": "先穩定辨認，再與相近符號比較",
+      "recognition": [
+        "看形辨識",
+        "聽音選符號",
+        "看符號發音",
+        "跨日換情境"
+      ],
+      "writing": [
+        "造形操作",
+        "依教育部筆順描寫",
+        "看範例臨寫",
+        "不看範例書寫"
+      ],
+      "assessment": "認讀與書寫分開記錄；跨日獨立表現才可標記穩定"
+    },
+    {
+      "order": 34,
+      "group": 8,
+      "symbol": "ㄗ",
+      "pronunciation_note": "舌尖不送氣",
+      "example_bopomofo": "ㄗ",
+      "example_character": "資",
+      "confusion": "ㄓ",
+      "recognition": [
+        "看形辨識",
+        "聽音選符號",
+        "看符號發音",
+        "跨日換情境"
+      ],
+      "writing": [
+        "造形操作",
+        "依教育部筆順描寫",
+        "看範例臨寫",
+        "不看範例書寫"
+      ],
+      "assessment": "認讀與書寫分開記錄；跨日獨立表現才可標記穩定"
+    },
+    {
+      "order": 35,
+      "group": 8,
+      "symbol": "ㄘ",
+      "pronunciation_note": "舌尖送氣",
+      "example_bopomofo": "ㄘˋ",
+      "example_character": "次",
+      "confusion": "ㄔ",
+      "recognition": [
+        "看形辨識",
+        "聽音選符號",
+        "看符號發音",
+        "跨日換情境"
+      ],
+      "writing": [
+        "造形操作",
+        "依教育部筆順描寫",
+        "看範例臨寫",
+        "不看範例書寫"
+      ],
+      "assessment": "認讀與書寫分開記錄；跨日獨立表現才可標記穩定"
+    },
+    {
+      "order": 36,
+      "group": 8,
+      "symbol": "ㄙ",
+      "pronunciation_note": "舌尖摩擦音",
+      "example_bopomofo": "ㄙ",
+      "example_character": "思",
+      "confusion": "ㄕ",
+      "recognition": [
+        "看形辨識",
+        "聽音選符號",
+        "看符號發音",
+        "跨日換情境"
+      ],
+      "writing": [
+        "造形操作",
+        "依教育部筆順描寫",
+        "看範例臨寫",
+        "不看範例書寫"
+      ],
+      "assessment": "認讀與書寫分開記錄；跨日獨立表現才可標記穩定"
+    },
+    {
+      "order": 37,
+      "group": 8,
+      "symbol": "ㄦ",
+      "pronunciation_note": "捲舌韻母",
+      "example_bopomofo": "ㄦˊ",
+      "example_character": "兒",
+      "confusion": "先穩定辨認，再與相近符號比較",
+      "recognition": [
+        "看形辨識",
+        "聽音選符號",
+        "看符號發音",
+        "跨日換情境"
+      ],
+      "writing": [
+        "造形操作",
+        "依教育部筆順描寫",
+        "看範例臨寫",
+        "不看範例書寫"
+      ],
+      "assessment": "認讀與書寫分開記錄；跨日獨立表現才可標記穩定"
+    }
+  ],
+  "groups": [
+    [
+      "ㄇ",
+      "ㄚ",
+      "ㄅ",
+      "ㄧ"
+    ],
+    [
+      "ㄉ",
+      "ㄨ",
+      "ㄋ",
+      "ㄠ"
+    ],
+    [
+      "ㄆ",
+      "ㄊ",
+      "ㄌ",
+      "ㄛ"
+    ],
+    [
+      "ㄈ",
+      "ㄜ",
+      "ㄝ",
+      "ㄟ",
+      "ㄢ"
+    ],
+    [
+      "ㄍ",
+      "ㄎ",
+      "ㄏ",
+      "ㄞ",
+      "ㄡ",
+      "ㄣ"
+    ],
+    [
+      "ㄐ",
+      "ㄑ",
+      "ㄒ",
+      "ㄩ",
+      "ㄤ",
+      "ㄥ"
+    ],
+    [
+      "ㄓ",
+      "ㄔ",
+      "ㄕ",
+      "ㄖ"
+    ],
+    [
+      "ㄗ",
+      "ㄘ",
+      "ㄙ",
+      "ㄦ"
+    ]
+  ],
+  "curated_examples": [
+    {
+      "zhuyin": "ㄇㄚ",
+      "character": "媽",
+      "tone": 1,
+      "stage": 1,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄇㄚˊ",
+      "character": "麻",
+      "tone": 2,
+      "stage": 1,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄇㄚˇ",
+      "character": "馬",
+      "tone": 3,
+      "stage": 1,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄇㄚˋ",
+      "character": "罵",
+      "tone": 4,
+      "stage": 1,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "˙ㄇㄚ",
+      "character": "嗎",
+      "tone": 0,
+      "stage": 1,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄅㄚ",
+      "character": "八",
+      "tone": 1,
+      "stage": 1,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄅㄚˊ",
+      "character": "拔",
+      "tone": 2,
+      "stage": 1,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄅㄚˇ",
+      "character": "把",
+      "tone": 3,
+      "stage": 1,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄅㄚˋ",
+      "character": "爸",
+      "tone": 4,
+      "stage": 1,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄇㄧ",
+      "character": "咪",
+      "tone": 1,
+      "stage": 1,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄇㄧˇ",
+      "character": "米",
+      "tone": 3,
+      "stage": 1,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄇㄧˋ",
+      "character": "蜜",
+      "tone": 4,
+      "stage": 1,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄅㄧ",
+      "character": "逼",
+      "tone": 1,
+      "stage": 1,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄅㄧˇ",
+      "character": "比",
+      "tone": 3,
+      "stage": 1,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄅㄧˋ",
+      "character": "閉",
+      "tone": 4,
+      "stage": 1,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄉㄚ",
+      "character": "搭",
+      "tone": 1,
+      "stage": 2,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄉㄚˇ",
+      "character": "打",
+      "tone": 3,
+      "stage": 2,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄉㄚˋ",
+      "character": "大",
+      "tone": 4,
+      "stage": 2,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄋㄚˊ",
+      "character": "拿",
+      "tone": 2,
+      "stage": 2,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄋㄧˇ",
+      "character": "你",
+      "tone": 3,
+      "stage": 2,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄨ",
+      "character": "屋",
+      "tone": 1,
+      "stage": 2,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄨˇ",
+      "character": "五",
+      "tone": 3,
+      "stage": 2,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄨˋ",
+      "character": "物",
+      "tone": 4,
+      "stage": 2,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄇㄠ",
+      "character": "貓",
+      "tone": 1,
+      "stage": 2,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄇㄠˊ",
+      "character": "毛",
+      "tone": 2,
+      "stage": 2,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄇㄠˋ",
+      "character": "帽",
+      "tone": 4,
+      "stage": 2,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄆㄚ",
+      "character": "趴",
+      "tone": 1,
+      "stage": 3,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄆㄚˋ",
+      "character": "怕",
+      "tone": 4,
+      "stage": 3,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄊㄚ",
+      "character": "他",
+      "tone": 1,
+      "stage": 3,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄊㄚˇ",
+      "character": "塔",
+      "tone": 3,
+      "stage": 3,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄌㄚ",
+      "character": "拉",
+      "tone": 1,
+      "stage": 3,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄌㄚˋ",
+      "character": "辣",
+      "tone": 4,
+      "stage": 3,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄅㄛ",
+      "character": "波",
+      "tone": 1,
+      "stage": 3,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄅㄛˊ",
+      "character": "伯",
+      "tone": 2,
+      "stage": 3,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄆㄛˋ",
+      "character": "破",
+      "tone": 4,
+      "stage": 3,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄈㄚ",
+      "character": "發",
+      "tone": 1,
+      "stage": 4,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄈㄚˇ",
+      "character": "法",
+      "tone": 3,
+      "stage": 4,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄜˊ",
+      "character": "鵝",
+      "tone": 2,
+      "stage": 4,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄧㄝˋ",
+      "character": "夜",
+      "tone": 4,
+      "stage": 4,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄅㄟ",
+      "character": "杯",
+      "tone": 1,
+      "stage": 4,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄅㄟˇ",
+      "character": "北",
+      "tone": 3,
+      "stage": 4,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄅㄢ",
+      "character": "班",
+      "tone": 1,
+      "stage": 4,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄅㄢˇ",
+      "character": "板",
+      "tone": 3,
+      "stage": 4,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄅㄢˋ",
+      "character": "半",
+      "tone": 4,
+      "stage": 4,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄍㄜ",
+      "character": "歌",
+      "tone": 1,
+      "stage": 5,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄍㄜˊ",
+      "character": "格",
+      "tone": 2,
+      "stage": 5,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄎㄜˇ",
+      "character": "可",
+      "tone": 3,
+      "stage": 5,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄏㄜ",
+      "character": "喝",
+      "tone": 1,
+      "stage": 5,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄏㄜˊ",
+      "character": "河",
+      "tone": 2,
+      "stage": 5,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄅㄞˊ",
+      "character": "白",
+      "tone": 2,
+      "stage": 5,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄉㄡˋ",
+      "character": "豆",
+      "tone": 4,
+      "stage": 5,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄅㄣ",
+      "character": "奔",
+      "tone": 1,
+      "stage": 5,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄅㄣˇ",
+      "character": "本",
+      "tone": 3,
+      "stage": 5,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄐㄧ",
+      "character": "雞",
+      "tone": 1,
+      "stage": 6,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄐㄧˇ",
+      "character": "幾",
+      "tone": 3,
+      "stage": 6,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄑㄧ",
+      "character": "七",
+      "tone": 1,
+      "stage": 6,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄑㄧˊ",
+      "character": "旗",
+      "tone": 2,
+      "stage": 6,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄒㄧ",
+      "character": "西",
+      "tone": 1,
+      "stage": 6,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄒㄧˇ",
+      "character": "洗",
+      "tone": 3,
+      "stage": 6,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄩˊ",
+      "character": "魚",
+      "tone": 2,
+      "stage": 6,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄐㄩˊ",
+      "character": "橘",
+      "tone": 2,
+      "stage": 6,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄅㄤ",
+      "character": "幫",
+      "tone": 1,
+      "stage": 6,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄉㄥ",
+      "character": "燈",
+      "tone": 1,
+      "stage": 6,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄓ",
+      "character": "知",
+      "tone": 1,
+      "stage": 7,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄓˇ",
+      "character": "紙",
+      "tone": 3,
+      "stage": 7,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄔ",
+      "character": "吃",
+      "tone": 1,
+      "stage": 7,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄔˊ",
+      "character": "池",
+      "tone": 2,
+      "stage": 7,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄕ",
+      "character": "詩",
+      "tone": 1,
+      "stage": 7,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄕˊ",
+      "character": "十",
+      "tone": 2,
+      "stage": 7,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄖˋ",
+      "character": "日",
+      "tone": 4,
+      "stage": 7,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄓㄨ",
+      "character": "豬",
+      "tone": 1,
+      "stage": 7,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄔㄚˊ",
+      "character": "茶",
+      "tone": 2,
+      "stage": 7,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄕㄨ",
+      "character": "書",
+      "tone": 1,
+      "stage": 7,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄗ",
+      "character": "資",
+      "tone": 1,
+      "stage": 8,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄗˇ",
+      "character": "子",
+      "tone": 3,
+      "stage": 8,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄘ",
+      "character": "疵",
+      "tone": 1,
+      "stage": 8,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄘˋ",
+      "character": "次",
+      "tone": 4,
+      "stage": 8,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄙ",
+      "character": "思",
+      "tone": 1,
+      "stage": 8,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄙㄢ",
+      "character": "三",
+      "tone": 1,
+      "stage": 8,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄙˋ",
+      "character": "四",
+      "tone": 4,
+      "stage": 8,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄦˊ",
+      "character": "兒",
+      "tone": 2,
+      "stage": 8,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄦˇ",
+      "character": "耳",
+      "tone": 3,
+      "stage": 8,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄦˋ",
+      "character": "二",
+      "tone": 4,
+      "stage": 8,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄐㄧㄚ",
+      "character": "家",
+      "tone": 1,
+      "stage": 6,
+      "level": "三符號音節"
+    },
+    {
+      "zhuyin": "ㄑㄧㄢˊ",
+      "character": "前",
+      "tone": 2,
+      "stage": 6,
+      "level": "三符號音節"
+    },
+    {
+      "zhuyin": "ㄒㄩㄝˊ",
+      "character": "學",
+      "tone": 2,
+      "stage": 6,
+      "level": "三符號音節"
+    },
+    {
+      "zhuyin": "ㄐㄩㄝˊ",
+      "character": "覺",
+      "tone": 2,
+      "stage": 6,
+      "level": "三符號音節"
+    },
+    {
+      "zhuyin": "ㄉㄨㄛ",
+      "character": "多",
+      "tone": 1,
+      "stage": 6,
+      "level": "三符號音節"
+    },
+    {
+      "zhuyin": "ㄏㄨㄚ",
+      "character": "花",
+      "tone": 1,
+      "stage": 6,
+      "level": "三符號音節"
+    },
+    {
+      "zhuyin": "ㄍㄨㄛˊ",
+      "character": "國",
+      "tone": 2,
+      "stage": 6,
+      "level": "三符號音節"
+    },
+    {
+      "zhuyin": "ㄨㄢˊ",
+      "character": "玩",
+      "tone": 2,
+      "stage": 6,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄧㄡˇ",
+      "character": "有",
+      "tone": 3,
+      "stage": 6,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄧㄥ",
+      "character": "英",
+      "tone": 1,
+      "stage": 6,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄩㄢˊ",
+      "character": "圓",
+      "tone": 2,
+      "stage": 6,
+      "level": "單音節"
+    },
+    {
+      "zhuyin": "ㄒㄩㄥ",
+      "character": "兄",
+      "tone": 1,
+      "stage": 6,
+      "level": "三符號音節"
+    },
+    {
+      "zhuyin": "ㄗˋ",
+      "character": "字",
+      "tone": 4,
+      "stage": 8,
+      "level": "單音節"
+    }
+  ],
+  "weekly_missions": [
+    {
+      "week": 1,
+      "month": 1,
+      "area": 1,
+      "title": "發現聲音",
+      "focus": "ㄇ、ㄚ",
+      "child_read": "ㄇㄚ",
+      "write": "描畫ㄇ與ㄚ",
+      "parent_story": "今天探險隊來到「發現聲音」。研究員發現一張神秘線索，請孩子先聽家長說故事，再找出這次的注音密碼。",
+      "mission": "在符號卡中找出「ㄇㄚ」所用的符號；若還不會拼，先由家長示範，孩子負責找線索。",
+      "assessment": "記錄看符號讀音、聽音找符號、書寫是否獨立；隔天換玩法再觀察。"
+    },
+    {
+      "week": 2,
+      "month": 1,
+      "area": 1,
+      "title": "第一張研究卡",
+      "focus": "ㄅ、ㄧ",
+      "child_read": "ㄅㄚˋ",
+      "write": "描畫ㄅ與ㄧ",
+      "parent_story": "今天探險隊來到「第一張研究卡」。研究員發現一張神秘線索，請孩子先聽家長說故事，再找出這次的注音密碼。",
+      "mission": "在符號卡中找出「ㄅㄚˋ」所用的符號；若還不會拼，先由家長示範，孩子負責找線索。",
+      "assessment": "記錄看符號讀音、聽音找符號、書寫是否獨立；隔天換玩法再觀察。"
+    },
+    {
+      "week": 3,
+      "month": 1,
+      "area": 1,
+      "title": "聲音變變變",
+      "focus": "ㄇㄚ、ㄅㄚ",
+      "child_read": "ㄇㄚ",
+      "write": "看著範例寫ㄇ",
+      "parent_story": "今天探險隊來到「聲音變變變」。研究員發現一張神秘線索，請孩子先聽家長說故事，再找出這次的注音密碼。",
+      "mission": "在符號卡中找出「ㄇㄚ」所用的符號；若還不會拼，先由家長示範，孩子負責找線索。",
+      "assessment": "記錄看符號讀音、聽音找符號、書寫是否獨立；隔天換玩法再觀察。"
+    },
+    {
+      "week": 4,
+      "month": 1,
+      "area": 2,
+      "title": "聲調的腳步",
+      "focus": "ㄇㄚ／ㄇㄚˇ／ㄇㄚˋ",
+      "child_read": "ㄇㄚˇ",
+      "write": "看著範例寫ㄚ",
+      "parent_story": "今天探險隊來到「聲調的腳步」。研究員發現一張神秘線索，請孩子先聽家長說故事，再找出這次的注音密碼。",
+      "mission": "在符號卡中找出「ㄇㄚˇ」所用的符號；若還不會拼，先由家長示範，孩子負責找線索。",
+      "assessment": "記錄看符號讀音、聽音找符號、書寫是否獨立；隔天換玩法再觀察。"
+    },
+    {
+      "week": 5,
+      "month": 2,
+      "area": 2,
+      "title": "森林入口",
+      "focus": "ㄉ、ㄨ",
+      "child_read": "ㄉㄚˋ",
+      "write": "描畫ㄉ、ㄨ",
+      "parent_story": "今天探險隊來到「森林入口」。研究員發現一張神秘線索，請孩子先聽家長說故事，再找出這次的注音密碼。",
+      "mission": "在符號卡中找出「ㄉㄚˋ」所用的符號；若還不會拼，先由家長示範，孩子負責找線索。",
+      "assessment": "記錄看符號讀音、聽音找符號、書寫是否獨立；隔天換玩法再觀察。"
+    },
+    {
+      "week": 6,
+      "month": 2,
+      "area": 2,
+      "title": "鼻音朋友",
+      "focus": "ㄋ、ㄠ",
+      "child_read": "ㄋㄧˇ",
+      "write": "描畫ㄋ、ㄠ",
+      "parent_story": "今天探險隊來到「鼻音朋友」。研究員發現一張神秘線索，請孩子先聽家長說故事，再找出這次的注音密碼。",
+      "mission": "在符號卡中找出「ㄋㄧˇ」所用的符號；若還不會拼，先由家長示範，孩子負責找線索。",
+      "assessment": "記錄看符號讀音、聽音找符號、書寫是否獨立；隔天換玩法再觀察。"
+    },
+    {
+      "week": 7,
+      "month": 2,
+      "area": 3,
+      "title": "送氣的風",
+      "focus": "ㄆ、ㄊ",
+      "child_read": "ㄆㄚˋ",
+      "write": "臨寫ㄆ、ㄊ",
+      "parent_story": "今天探險隊來到「送氣的風」。研究員發現一張神秘線索，請孩子先聽家長說故事，再找出這次的注音密碼。",
+      "mission": "在符號卡中找出「ㄆㄚˋ」所用的符號；若還不會拼，先由家長示範，孩子負責找線索。",
+      "assessment": "記錄看符號讀音、聽音找符號、書寫是否獨立；隔天換玩法再觀察。"
+    },
+    {
+      "week": 8,
+      "month": 2,
+      "area": 3,
+      "title": "山路線索",
+      "focus": "ㄌ、ㄛ",
+      "child_read": "ㄅㄛ",
+      "write": "聽音寫熟悉符號",
+      "parent_story": "今天探險隊來到「山路線索」。研究員發現一張神秘線索，請孩子先聽家長說故事，再找出這次的注音密碼。",
+      "mission": "在符號卡中找出「ㄅㄛ」所用的符號；若還不會拼，先由家長示範，孩子負責找線索。",
+      "assessment": "記錄看符號讀音、聽音找符號、書寫是否獨立；隔天換玩法再觀察。"
+    },
+    {
+      "week": 9,
+      "month": 3,
+      "area": 3,
+      "title": "研究新聲音",
+      "focus": "ㄈ、ㄜ",
+      "child_read": "ㄈㄚˇ",
+      "write": "臨寫ㄈ、ㄜ",
+      "parent_story": "今天探險隊來到「研究新聲音」。研究員發現一張神秘線索，請孩子先聽家長說故事，再找出這次的注音密碼。",
+      "mission": "在符號卡中找出「ㄈㄚˇ」所用的符號；若還不會拼，先由家長示範，孩子負責找線索。",
+      "assessment": "記錄看符號讀音、聽音找符號、書寫是否獨立；隔天換玩法再觀察。"
+    },
+    {
+      "week": 10,
+      "month": 3,
+      "area": 4,
+      "title": "夜晚線索",
+      "focus": "ㄝ、ㄟ",
+      "child_read": "ㄧㄝˋ",
+      "write": "臨寫ㄝ、ㄟ",
+      "parent_story": "今天探險隊來到「夜晚線索」。研究員發現一張神秘線索，請孩子先聽家長說故事，再找出這次的注音密碼。",
+      "mission": "在符號卡中找出「ㄧㄝˋ」所用的符號；若還不會拼，先由家長示範，孩子負責找線索。",
+      "assessment": "記錄看符號讀音、聽音找符號、書寫是否獨立；隔天換玩法再觀察。"
+    },
+    {
+      "week": 11,
+      "month": 3,
+      "area": 4,
+      "title": "橋上的班牌",
+      "focus": "ㄢ",
+      "child_read": "ㄅㄢ",
+      "write": "聽音拼寫ㄅㄢ",
+      "parent_story": "今天探險隊來到「橋上的班牌」。研究員發現一張神秘線索，請孩子先聽家長說故事，再找出這次的注音密碼。",
+      "mission": "在符號卡中找出「ㄅㄢ」所用的符號；若還不會拼，先由家長示範，孩子負責找線索。",
+      "assessment": "記錄看符號讀音、聽音找符號、書寫是否獨立；隔天換玩法再觀察。"
+    },
+    {
+      "week": 12,
+      "month": 3,
+      "area": 4,
+      "title": "圖鑑小測試",
+      "focus": "複習G1–G4",
+      "child_read": "ㄅㄟ",
+      "write": "熟悉符號自主書寫",
+      "parent_story": "今天探險隊來到「圖鑑小測試」。研究員發現一張神秘線索，請孩子先聽家長說故事，再找出這次的注音密碼。",
+      "mission": "在符號卡中找出「ㄅㄟ」所用的符號；若還不會拼，先由家長示範，孩子負責找線索。",
+      "assessment": "記錄看符號讀音、聽音找符號、書寫是否獨立；隔天換玩法再觀察。"
+    },
+    {
+      "week": 13,
+      "month": 4,
+      "area": 5,
+      "title": "山洞回聲",
+      "focus": "ㄍ、ㄎ",
+      "child_read": "ㄍㄜ",
+      "write": "臨寫ㄍ、ㄎ",
+      "parent_story": "今天探險隊來到「山洞回聲」。研究員發現一張神秘線索，請孩子先聽家長說故事，再找出這次的注音密碼。",
+      "mission": "在符號卡中找出「ㄍㄜ」所用的符號；若還不會拼，先由家長示範，孩子負責找線索。",
+      "assessment": "記錄看符號讀音、聽音找符號、書寫是否獨立；隔天換玩法再觀察。"
+    },
+    {
+      "week": 14,
+      "month": 4,
+      "area": 5,
+      "title": "河邊唱歌",
+      "focus": "ㄏ、ㄞ",
+      "child_read": "ㄏㄜˊ",
+      "write": "臨寫ㄏ、ㄞ",
+      "parent_story": "今天探險隊來到「河邊唱歌」。研究員發現一張神秘線索，請孩子先聽家長說故事，再找出這次的注音密碼。",
+      "mission": "在符號卡中找出「ㄏㄜˊ」所用的符號；若還不會拼，先由家長示範，孩子負責找線索。",
+      "assessment": "記錄看符號讀音、聽音找符號、書寫是否獨立；隔天換玩法再觀察。"
+    },
+    {
+      "week": 15,
+      "month": 4,
+      "area": 5,
+      "title": "豆豆研究",
+      "focus": "ㄡ、ㄣ",
+      "child_read": "ㄉㄡˋ",
+      "write": "聽音拼寫ㄉㄡˋ",
+      "parent_story": "今天探險隊來到「豆豆研究」。研究員發現一張神秘線索，請孩子先聽家長說故事，再找出這次的注音密碼。",
+      "mission": "在符號卡中找出「ㄉㄡˋ」所用的符號；若還不會拼，先由家長示範，孩子負責找線索。",
+      "assessment": "記錄看符號讀音、聽音找符號、書寫是否獨立；隔天換玩法再觀察。"
+    },
+    {
+      "week": 16,
+      "month": 4,
+      "area": 6,
+      "title": "新的聲音隊",
+      "focus": "ㄐ、ㄑ、ㄒ",
+      "child_read": "ㄐㄧ",
+      "write": "臨寫ㄐ、ㄑ、ㄒ",
+      "parent_story": "今天探險隊來到「新的聲音隊」。研究員發現一張神秘線索，請孩子先聽家長說故事，再找出這次的注音密碼。",
+      "mission": "在符號卡中找出「ㄐㄧ」所用的符號；若還不會拼，先由家長示範，孩子負責找線索。",
+      "assessment": "記錄看符號讀音、聽音找符號、書寫是否獨立；隔天換玩法再觀察。"
+    },
+    {
+      "week": 17,
+      "month": 5,
+      "area": 6,
+      "title": "圓形寶物",
+      "focus": "ㄩ、ㄤ",
+      "child_read": "ㄩˊ",
+      "write": "臨寫ㄩ、ㄤ",
+      "parent_story": "今天探險隊來到「圓形寶物」。研究員發現一張神秘線索，請孩子先聽家長說故事，再找出這次的注音密碼。",
+      "mission": "在符號卡中找出「ㄩˊ」所用的符號；若還不會拼，先由家長示範，孩子負責找線索。",
+      "assessment": "記錄看符號讀音、聽音找符號、書寫是否獨立；隔天換玩法再觀察。"
+    },
+    {
+      "week": 18,
+      "month": 5,
+      "area": 6,
+      "title": "燈光密碼",
+      "focus": "ㄥ、介音",
+      "child_read": "ㄉㄥ",
+      "write": "練習三符號配置",
+      "parent_story": "今天探險隊來到「燈光密碼」。研究員發現一張神秘線索，請孩子先聽家長說故事，再找出這次的注音密碼。",
+      "mission": "在符號卡中找出「ㄉㄥ」所用的符號；若還不會拼，先由家長示範，孩子負責找線索。",
+      "assessment": "記錄看符號讀音、聽音找符號、書寫是否獨立；隔天換玩法再觀察。"
+    },
+    {
+      "week": 19,
+      "month": 5,
+      "area": 7,
+      "title": "紙上的線索",
+      "focus": "ㄓ、ㄔ",
+      "child_read": "ㄓˇ",
+      "write": "臨寫ㄓ、ㄔ",
+      "parent_story": "今天探險隊來到「紙上的線索」。研究員發現一張神秘線索，請孩子先聽家長說故事，再找出這次的注音密碼。",
+      "mission": "在符號卡中找出「ㄓˇ」所用的符號；若還不會拼，先由家長示範，孩子負責找線索。",
+      "assessment": "記錄看符號讀音、聽音找符號、書寫是否獨立；隔天換玩法再觀察。"
+    },
+    {
+      "week": 20,
+      "month": 5,
+      "area": 7,
+      "title": "書本的秘密",
+      "focus": "ㄕ、ㄖ",
+      "child_read": "ㄕㄨ",
+      "write": "臨寫ㄕ、ㄖ",
+      "parent_story": "今天探險隊來到「書本的秘密」。研究員發現一張神秘線索，請孩子先聽家長說故事，再找出這次的注音密碼。",
+      "mission": "在符號卡中找出「ㄕㄨ」所用的符號；若還不會拼，先由家長示範，孩子負責找線索。",
+      "assessment": "記錄看符號讀音、聽音找符號、書寫是否獨立；隔天換玩法再觀察。"
+    },
+    {
+      "week": 21,
+      "month": 6,
+      "area": 7,
+      "title": "數字路線",
+      "focus": "ㄗ、ㄘ",
+      "child_read": "ㄘˋ",
+      "write": "臨寫ㄗ、ㄘ",
+      "parent_story": "今天探險隊來到「數字路線」。研究員發現一張神秘線索，請孩子先聽家長說故事，再找出這次的注音密碼。",
+      "mission": "在符號卡中找出「ㄘˋ」所用的符號；若還不會拼，先由家長示範，孩子負責找線索。",
+      "assessment": "記錄看符號讀音、聽音找符號、書寫是否獨立；隔天換玩法再觀察。"
+    },
+    {
+      "week": 22,
+      "month": 6,
+      "area": 8,
+      "title": "耳朵研究所",
+      "focus": "ㄙ、ㄦ",
+      "child_read": "ㄦˇ",
+      "write": "臨寫ㄙ、ㄦ",
+      "parent_story": "今天探險隊來到「耳朵研究所」。研究員發現一張神秘線索，請孩子先聽家長說故事，再找出這次的注音密碼。",
+      "mission": "在符號卡中找出「ㄦˇ」所用的符號；若還不會拼，先由家長示範，孩子負責找線索。",
+      "assessment": "記錄看符號讀音、聽音找符號、書寫是否獨立；隔天換玩法再觀察。"
+    },
+    {
+      "week": 23,
+      "month": 6,
+      "area": 8,
+      "title": "閱讀探險",
+      "focus": "所有已學符號",
+      "child_read": "ㄐㄧㄚ",
+      "write": "聽音拼寫音節",
+      "parent_story": "今天探險隊來到「閱讀探險」。研究員發現一張神秘線索，請孩子先聽家長說故事，再找出這次的注音密碼。",
+      "mission": "在符號卡中找出「ㄐㄧㄚ」所用的符號；若還不會拼，先由家長示範，孩子負責找線索。",
+      "assessment": "記錄看符號讀音、聽音找符號、書寫是否獨立；隔天換玩法再觀察。"
+    },
+    {
+      "week": 24,
+      "month": 6,
+      "area": 8,
+      "title": "最後一頁圖鑑",
+      "focus": "新舊詞句與閱讀",
+      "child_read": "ㄏㄨㄚ",
+      "write": "寫探險紀錄",
+      "parent_story": "今天探險隊來到「最後一頁圖鑑」。研究員發現一張神秘線索，請孩子先聽家長說故事，再找出這次的注音密碼。",
+      "mission": "在符號卡中找出「ㄏㄨㄚ」所用的符號；若還不會拼，先由家長示範，孩子負責找線索。",
+      "assessment": "記錄看符號讀音、聽音找符號、書寫是否獨立；隔天換玩法再觀察。"
+    }
+  ],
+  "reading_prompts": [
+    {
+      "month": 1,
+      "sentence": "媽來了。",
+      "child_targets": "ㄇㄚ",
+      "note": "家長朗讀整句；孩子只讀「媽」。"
+    },
+    {
+      "month": 1,
+      "sentence": "爸爸在這裡。",
+      "child_targets": "ㄅㄚˋ",
+      "note": "孩子辨認「爸」的音節，不要求讀整句。"
+    },
+    {
+      "month": 2,
+      "sentence": "貓咪走過來。",
+      "child_targets": "ㄇㄠ",
+      "note": "找出貓的注音。"
+    },
+    {
+      "month": 2,
+      "sentence": "你拿了什麼？",
+      "child_targets": "ㄋㄧˇ、ㄋㄚˊ",
+      "note": "辨認你、拿兩個音節。"
+    },
+    {
+      "month": 3,
+      "sentence": "他怕黑。",
+      "child_targets": "ㄊㄚ、ㄆㄚˋ",
+      "note": "比較送氣聲母。"
+    },
+    {
+      "month": 3,
+      "sentence": "杯子在桌上。",
+      "child_targets": "ㄅㄟ",
+      "note": "辨認杯。"
+    },
+    {
+      "month": 4,
+      "sentence": "半夜有聲音。",
+      "child_targets": "ㄅㄢˋ、ㄧㄝˋ",
+      "note": "先拼讀兩個音節。"
+    },
+    {
+      "month": 4,
+      "sentence": "河邊有白花。",
+      "child_targets": "ㄏㄜˊ、ㄅㄞˊ",
+      "note": "找出河、白。"
+    },
+    {
+      "month": 5,
+      "sentence": "七隻小雞。",
+      "child_targets": "ㄑㄧ、ㄐㄧ",
+      "note": "分辨ㄑ與ㄐ。"
+    },
+    {
+      "month": 5,
+      "sentence": "紙上有字。",
+      "child_targets": "ㄓˇ、ㄗˋ",
+      "note": "辨認ㄓ與ㄗ；字的音節ㄗˋ。"
+    },
+    {
+      "month": 6,
+      "sentence": "我看見一朵花。",
+      "child_targets": "ㄏㄨㄚ",
+      "note": "練習三符號音節。"
+    },
+    {
+      "month": 6,
+      "sentence": "一起讀故事。",
+      "child_targets": "ㄕˋ",
+      "note": "成人朗讀整句，孩子讀指定音節。"
+    }
+  ],
+  "tone_rules": [
+    {
+      "tone": "一聲",
+      "mark": "（不標）",
+      "example": "ㄇㄚ＝媽"
+    },
+    {
+      "tone": "二聲",
+      "mark": "ˊ",
+      "example": "ㄇㄚˊ＝麻"
+    },
+    {
+      "tone": "三聲",
+      "mark": "ˇ",
+      "example": "ㄇㄚˇ＝馬"
+    },
+    {
+      "tone": "四聲",
+      "mark": "ˋ",
+      "example": "ㄇㄚˋ＝罵"
+    },
+    {
+      "tone": "輕聲",
+      "mark": "˙（音節前）",
+      "example": "˙ㄇㄚ＝嗎"
+    }
+  ],
+  "assessment": [
+    "看符號讀音",
+    "聽音找符號",
+    "隔天換情境",
+    "看範例書寫",
+    "聽音獨立書寫",
+    "二拼／三符號音節",
+    "聲調",
+    "詞句理解"
+  ],
+  "scope": "人工選定的教學例字與音節；不宣稱完整收錄所有合法國語音節、所有聲調組合或逐字教育部辭典核驗。",
+  "sources": [
+    "https://language.moe.gov.tw/001/Upload/files/site_content/M0001/juyin/html_ch/index.html",
+    "https://stroke-order.learningweb.moe.edu.tw/phonetic.jsp",
+    "https://dict.concised.moe.edu.tw/"
+  ]
+}
